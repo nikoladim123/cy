@@ -192,6 +192,7 @@ nav a{
 }
 
 .inspiredText p{
+  line-height: 1.7;
   font-size: 1.5vw;
   margin: 0;
 }
@@ -206,6 +207,27 @@ nav a{
   border: 1px solid black;
   display: flex;
   justify-content: center;
+}
+
+.buttonsTwenty{
+  width: 100%;
+  padding-right: 3.57vw;
+  border: 2px solid green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.btnOne{
+  height: 3.85vw;
+  margin-bottom: 1.64vw;
+  width: 15.86vw;
+}
+.btnTwo{
+  margin-bottom: 1.92vw;
+  height: 3.85vw;
+  width: 20.7vw;
 }
 
 .imgTwenty img{
