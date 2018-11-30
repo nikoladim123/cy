@@ -12,6 +12,7 @@ header{
   height: 16.64vw;
   background-color: #0f967f;
 }
+
 header h1{
   margin: 0;
   margin-left: 0.71vw;
@@ -20,6 +21,7 @@ header h1{
 }
 
 .login{
+  color: white;
   position: absolute;
   float: right;
   width: 16.07vw;
@@ -42,12 +44,19 @@ header h1{
 }
 
 header button{
+  color:#0f967f;
   border-radius: 15px;
   font-weight: bold;
   font-size: 2vw;
   margin-top: 1.77vw;
   height: 3.92vw;
   width: 100%;
+}
+
+header button:hover{
+  color:white;
+  background-color: #0f967f;
+  border: 1px solid white;
 }
 
 nav{
@@ -64,6 +73,10 @@ nav a{
   text-decoration: none;
   font-weight: 400;
   font-size: 1.8vw;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 .sectionOne{
@@ -103,7 +116,7 @@ nav a{
 }
 
 .picThree{
-  background-image: url('img/mainImg/PicThree.png');
+  background-image: url('img/mainImg/picThree.png');
   grid-row:2/3;
   grid-column: 1/2;
   margin-top: -1px;
@@ -146,8 +159,18 @@ nav a{
 }
 
 .sectionRisk button{
+  color:#0f967f;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 2vw;
   height: 5vw;
   width: 24.07vw;
+}
+
+.sectionRisk button:hover{
+  color:white;
+  background-color: #0f967f;
+  border: 1px solid white;
 }
 
 .sectionImageOnly{
@@ -162,6 +185,7 @@ nav a{
   display: flex;
   justify-content: center;
   height: 43.79vw;
+  border-bottom: 3.14vw solid #0f967f;
 }
 
 .claimGame{
@@ -173,14 +197,17 @@ nav a{
 }
 
 .inspired{
+  color:#0f967f;
   width: 65vw;
   padding-left: 4.21vw;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
 }
 
 .inspiredText{
-  color:#0f967f;
   padding-right: 10vw;
-  border: 1px solid red;
+  margin-bottom:6vw;
 }
 
 .inspiredText h1{
@@ -198,38 +225,56 @@ nav a{
 }
 
 .twenty{
-  border: 1px solid purple;
   display: flex;
   justify-content: center;
 }
 
 .imgTwenty{
-  border: 1px solid black;
+  padding-top: 1.6vw;
   display: flex;
   justify-content: center;
 }
 
+.imgTwenty p{
+  font-size: 0.8vw;
+}
+
 .buttonsTwenty{
-  width: 100%;
+  width: 35vw;
   padding-right: 3.57vw;
-  border: 2px solid green;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
 }
 
+.buttonsTwenty button:hover{
+  color:#0f967f;
+  background-color: white;
+  border: 1px solid #0f967f;
+}
+
 .btnOne{
+  background-color: #0f967f;
+  color:white;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 2vw;
   height: 3.85vw;
   margin-bottom: 1.64vw;
   width: 15.86vw;
 }
 .btnTwo{
+  background-color: #0f967f;
+  color:white;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 2vw;
   margin-bottom: 1.92vw;
   height: 3.85vw;
   width: 20.7vw;
 }
 
 .imgTwenty img{
-  height: 3.35vw;
+  height: 2.35vw;
 }
