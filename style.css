@@ -5,7 +5,7 @@
 
 body{
   margin: 0;
-  height: 274vw;
+  /*height:272vw;*/
 }
 
 header{
@@ -44,6 +44,7 @@ header h1{
 }
 
 header button{
+  background-color: white;
   color:#0f967f;
   border-radius: 15px;
   font-weight: bold;
@@ -159,6 +160,7 @@ a:hover{
 }
 
 .sectionRisk button{
+  background-color: white;
   color:#0f967f;
   border-radius: 15px;
   font-weight: bold;
@@ -219,7 +221,7 @@ a:hover{
 }
 
 .inspiredText p{
-  line-height: 1.7;
+  line-height: 1.8;
   font-size: 1.5vw;
   margin: 0;
 }
@@ -277,4 +279,86 @@ a:hover{
 
 .imgTwenty img{
   height: 2.35vw;
+}
+
+/*inspired pain end*/
+
+.sectionTags{
+  height: 19vw;
+}
+
+.sectionTags h1{
+  margin: 0;
+  margin-top: 4.1vw;
+  margin-bottom: 3.31vw;
+  color: #0f967f;
+  font-size: 3vw;
+}
+
+.tags{
+  background-image: url('img/tags.png');
+  background-size: 100% 100%;
+  height: 6vw;
+}
+
+.threeDivPic{
+  background-image: url('img/threeDivPic.png');
+  background-size: 100% 100%;
+  height: 29.5vw;
+}
+
+footer{
+  display: block;
+  height: 30vw;
+  background-color: #0f967f;
+  display: flex;
+  justify-content: center;
+  padding-top: 3.57vw;
+  color:white;
+}
+
+.footerTxt{
+  width: 50vw;
+  height: 26.42vw;
+}
+
+.footerTxt p{
+  line-height: 1.3;
+  margin-left: 11.78vw;
+  font-size: 1.7vw;
+}
+
+.footerImg{
+  background-image: url('img/footerImg.png');
+  background-size: 100% 100%;
+  width: 36.28vw;
+  height: 26.42vw;
+  margin-left: 4.71vw;
+  margin-right: 8.92vw;
+  padding-left: 2vw;
+  padding-right: 2.85vw;
+}
+
+.footerImg h2{
+  margin-top: 3.21vw;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.footerImg p{
+  line-height: 1.3;
+  font-size: 1.7vw;
+}
+
+.footerImg button{
+  position: relative;
+  background-color: white;
+  color:#0f967f;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 2vw;
+  width: 15.85vw;
+  height: 3.92vw;
+  margin-left: 50%;
+  left:-7.43vw;
 }
