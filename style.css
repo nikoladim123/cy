@@ -155,3 +155,59 @@ nav a{
   height: 41.26vw;
   background-size: 100% 100%;
 }
+
+/*Inspired */
+
+.sectionInspired{
+  display: flex;
+  justify-content: center;
+  height: 43.79vw;
+}
+
+.claimGame{
+  background-image: url('img/ClaimGame.png');
+  height: 43.7vw;
+  width: 35vw;
+  margin-top: 1px;
+  background-size: 100% 100%;
+}
+
+.inspired{
+  width: 65vw;
+  padding-left: 4.21vw;
+}
+
+.inspiredText{
+  color:#0f967f;
+  padding-right: 10vw;
+  border: 1px solid red;
+}
+
+.inspiredText h1{
+  margin: 0;
+  margin-top: 7.43vw;
+  margin-bottom: 2vw;
+  font-size: 3vw;
+  font-weight: 900;
+}
+
+.inspiredText p{
+  font-size: 1.5vw;
+  margin: 0;
+}
+
+.twenty{
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+}
+
+.imgTwenty{
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.imgTwenty img{
+  height: 3.35vw;
+}
