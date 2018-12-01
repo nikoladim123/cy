@@ -410,7 +410,7 @@ a:hover{
   text-align: center;
   min-width: 28vw;
   margin-left: 1vw;
-  margin-right: 1vw;
+  margin-right: 1.2vw;
 }
 
 footer{
@@ -608,7 +608,24 @@ footer{
     font-size: 4vw;
   }
   /*grid end*/
+  /*inspired*/
 
+  .inspiredText{
+    margin-bottom:1.8vw;
+  }
+
+  .inspiredText h1{
+    margin-top: 4.43vw;
+    margin-bottom: 2vw;
+  }
+
+  .inspiredText p{
+    line-height: 1.4;
+    font-size: 1.9vw;
+  }
+
+
+  /*inspired end*/
   .sectionRisk{
     font-size: 2.1vw;
     height: auto;
@@ -634,6 +651,16 @@ footer{
     font-size:1.8vw;
     flex-direction: column;
     width: 50vw;
+  }
+
+  .footerTxt p{
+    line-height: 1.1;
+    margin-left: 6vw;
+    font-size: 2.3vw;
+  }
+
+  footer{
+    height: 33vw;
   }
 
 }
