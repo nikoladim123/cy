@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" href="img/Logo.png">
   </head>
@@ -14,10 +15,23 @@
       <div class="logo"></div>
       <div class="login">
         <h1>(800) 579 - 291 1</h1>
-        <button type="button" class="buttonStyleWhite"  data-aos="fade-left"> Login</button>
+        <button type="button" class="buttonStyleWhite"  data-aos="fade-up"> Login</button>
       </div>
     </header>
-    <nav data-aos="fade-up">
+    <!-- Mobil nav -->
+    <nav id="navBarMobile">
+      <div class="burger" onclick="dropNav();">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <div class="search">
+
+      </div>
+      <a href="#" id='semiLogIn'>Login</a>
+    </nav>
+    <!-- desktop nav -->
+    <nav data-aos="fade-up" id="navBarDesktop">
       <a href="#">Home</a>
       <a href="#">About Us</a>
       <a href="#">Services</a>
@@ -25,6 +39,7 @@
       <a href="#">Contact</a>
       <a href="#">Login</a>
     </nav>
+
     <main>
       <section class="sectionOne">
         <div class="picOne"><p data-aos="zoom-in-up">Employment Background <br> Investigations</p></div>
@@ -73,12 +88,70 @@
 
         <section class="sectionTags">
           <h1 align="center">Partners</h1>
-          <div class="tags" data-aos="zoom-in-up">
-
+          <div class="tags">
+            <div class="tagOne"></div>
+            <div class="tagTwo"></div>
+            <div class="tagThree"></div>
+            <div class="tagFour"></div>
+            <div class="tagFive"></div>
+            <div class="tagSix"></div>
           </div>
         </section>
-
+        <!-- CAROUSEL DIV-->
         <section class="threeDivPic">
+          <div class="">
+            <a><i class="fa fa-twitter" style="font-size:24px"></i></a>
+          </div>
+          <div class="scrollDiv" id="car">
+            <div class="scrollOne">
+              <p >Don't miss
+              <a href="https://twitter.com/marioawig" target="_blank" rel="nofollow">@marioawig</a> and Michael Parascandola at the National Workers' Compensation and Disability Conference and Expo, 12/5 - 12/7 at the Mandalay Bay in Las Vegas.
+              <a href="https://t.co/OeuMaiyutk" title="https://t.co/OeuMaiyutk" target="_blank">https://t.co/OeuMaiyutk</a> <a href="https://twitter.com/hashtag/nwcdconf" target="_blank" rel="nofollow">#nwcdconf</a>
+              <a href="https://twitter.com/NWCDConf" target="_blank">@NWCDConf</a>
+              <a href="https://twitter.com/hashtag/conference" target="_blank" rel="nofollow">#conference</a>
+              <a href="https://twitter.com/hashtag/networking" target="_blank" rel="nofollow">#networking</a><br>
+              <a href="https://twitter.com/hashtag/workerscompensation" target="_blank" rel="nofollow">#workerscompensation</a><br>
+              <a href="https://twitter.com/hashtag/disability" target="_blank">#disability</a><br>
+              <a href="https://twitter.com/hashtag/lasvegas" target="_blank" rel="nofollow">#lasvegas</a></p>
+              November 30
+            </div>
+            <div class="scrollOne">
+              <p >Don't miss
+              <a href="https://twitter.com/marioawig" target="_blank" rel="nofollow">@marioawig</a> and Michael Parascandola at the National Workers' Compensation and Disability Conference and Expo, 12/5 - 12/7 at the Mandalay Bay in Las Vegas.
+              <a href="https://t.co/OeuMaiyutk" title="https://t.co/OeuMaiyutk" target="_blank">https://t.co/OeuMaiyutk</a> <a href="https://twitter.com/hashtag/nwcdconf" target="_blank" rel="nofollow">#nwcdconf</a>
+              <a href="https://twitter.com/NWCDConf" target="_blank">@NWCDConf</a>
+              <a href="https://twitter.com/hashtag/conference" target="_blank" rel="nofollow">#conference</a>
+              <a href="https://twitter.com/hashtag/networking" target="_blank" rel="nofollow">#networking</a><br>
+              <a href="https://twitter.com/hashtag/workerscompensation" target="_blank" rel="nofollow">#workerscompensation</a><br>
+              <a href="https://twitter.com/hashtag/disability" target="_blank">#disability</a><br>
+              <a href="https://twitter.com/hashtag/lasvegas" target="_blank" rel="nofollow">#lasvegas</a></p>
+              November 30
+            </div>
+            <div class="scrollOne">
+              <p >Don't miss
+              <a href="https://twitter.com/marioawig" target="_blank" rel="nofollow">@marioawig</a> and Michael Parascandola at the National Workers' Compensation and Disability Conference and Expo, 12/5 - 12/7 at the Mandalay Bay in Las Vegas.
+              <a href="https://t.co/OeuMaiyutk" title="https://t.co/OeuMaiyutk" target="_blank">https://t.co/OeuMaiyutk</a> <a href="https://twitter.com/hashtag/nwcdconf" target="_blank" rel="nofollow">#nwcdconf</a>
+              <a href="https://twitter.com/NWCDConf" target="_blank">@NWCDConf</a>
+              <a href="https://twitter.com/hashtag/conference" target="_blank" rel="nofollow">#conference</a>
+              <a href="https://twitter.com/hashtag/networking" target="_blank" rel="nofollow">#networking</a><br>
+              <a href="https://twitter.com/hashtag/workerscompensation" target="_blank" rel="nofollow">#workerscompensation</a><br>
+              <a href="https://twitter.com/hashtag/disability" target="_blank">#disability</a><br>
+              <a href="https://twitter.com/hashtag/lasvegas" target="_blank" rel="nofollow">#lasvegas</a></p>
+              November 30
+            </div>
+            <div class="scrollOne">
+              <p >Don't miss
+              <a href="https://twitter.com/marioawig" target="_blank" rel="nofollow">@marioawig</a> and Michael Parascandola at the National Workers' Compensation and Disability Conference and Expo, 12/5 - 12/7 at the Mandalay Bay in Las Vegas.
+              <a href="https://t.co/OeuMaiyutk" title="https://t.co/OeuMaiyutk" target="_blank">https://t.co/OeuMaiyutk</a> <a href="https://twitter.com/hashtag/nwcdconf" target="_blank" rel="nofollow">#nwcdconf</a>
+              <a href="https://twitter.com/NWCDConf" target="_blank">@NWCDConf</a>
+              <a href="https://twitter.com/hashtag/conference" target="_blank" rel="nofollow">#conference</a>
+              <a href="https://twitter.com/hashtag/networking" target="_blank" rel="nofollow">#networking</a><br>
+              <a href="https://twitter.com/hashtag/workerscompensation" target="_blank" rel="nofollow">#workerscompensation</a><br>
+              <a href="https://twitter.com/hashtag/disability" target="_blank">#disability</a><br>
+              <a href="https://twitter.com/hashtag/lasvegas" target="_blank" rel="nofollow">#lasvegas</a></p>
+              November 30
+            </div>
+          </div>
         </section>
     </main>
 
@@ -106,13 +179,56 @@
         </footer>
 
 
-
+        <!-- JQUERY-->
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.1.0.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+    /*JQUERY CAROUSEL*/
+    $.fn.attachDragger = function(){
+        var attachment = false, lastPosition, position, difference;
+        $( $(this).selector ).on("mousedown mouseup mousemove",function(e){
+            if( e.type == "mousedown" ) attachment = true, lastPosition = [e.clientX, e.clientY];
+            if( e.type == "mouseup" ) attachment = false;
+            if( e.type == "mousemove" && attachment == true ){
+                position = [e.clientX, e.clientY];
+                difference = [ (position[0]-lastPosition[0]), (position[1]-lastPosition[1]) ];
+                $(this).scrollLeft( $(this).scrollLeft() - difference[0] );
+                lastPosition = [e.clientX, e.clientY];
+            }
+        });
+        $(window).on("mouseup", function(){
+            attachment = false;
+        });
+    }
+
+    $(document).ready(function(){
+   $("#car").attachDragger();
+  });
+    /*JQUERY CAROUSEL*/
+
+    /*animation on scroll*/
     AOS.init({
   duration: 500, // values from 0 to 3000, with step 50ms
   once: true, // whether animation should happen only once - while scrolling down
   });
+
+  /*DROP DOWN NAV MENU ON BURGER CLICK*/
+  var element = document.getElementById('navBarDesktop');
+  var semiLogIn = document.getElementById('semiLogIn')
+  var change=0;
+  var  dropNav = function(){
+    change++;
+    if(change%2==1){
+      element.style.display = 'flex';
+      semiLogIn.style.display = 'none';
+    }
+    else{
+      element.style.display = 'none';
+      semiLogIn.style.display = 'block';
+    }
+
+  }
     </script>
   </body>
 </html>

@@ -3,8 +3,13 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#navBarMobile{
+  display: none;
+}
+
 body{
   margin: 0;
+  overflow-x: hidden;
   /*height:272vw;*/
 }
 
@@ -41,13 +46,12 @@ header h1{
   left: -15vw;
   margin-top: 2.5vw;
   background-size: 100% 100%;
-
 }
 
 header button{
   background-color: white;
   color:#0f967f;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-weight: bold;
   font-size: 2vw;
   margin-top: 1.77vw;
@@ -61,7 +65,7 @@ header button:hover{
   border: 1px solid white;
 }
 
-nav{
+#navBarDesktop{
   padding-left: 20.35%;
   padding-right: 20.35%;
   height: 3.92vw;
@@ -70,7 +74,7 @@ nav{
   justify-content: space-between;
 }
 
-nav a{
+#navBarDesktop a{
   color:#0f967f;
   text-decoration: none;
   font-weight: 900;
@@ -113,7 +117,6 @@ a:hover{
   background-image: url('img/mainImg/picTwo.png');
   grid-row:1/2;
   grid-column: 2/3;
-
   background-size: 100% 100% ;
 }
 
@@ -163,7 +166,7 @@ a:hover{
 .sectionRisk button{
   background-color: white;
   color:#0f967f;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-weight: bold;
   font-size: 2vw;
   height: 5vw;
@@ -261,7 +264,7 @@ a:hover{
 .btnOne{
   background-color: #0f967f;
   color:white;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-weight: bold;
   font-size: 2vw;
   height: 3.85vw;
@@ -271,7 +274,7 @@ a:hover{
 .btnTwo{
   background-color: #0f967f;
   color:white;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-weight: bold;
   font-size: 2vw;
   height: 3.85vw;
@@ -298,15 +301,116 @@ a:hover{
 }
 
 .tags{
-  background-image: url('img/tags.png');
+  /*background-image: url('img/tags.png');
+  background-size: 100% 100%;*/
+  height: 6vw;
+  display: flex;
+  justify-content: center;
+
+}
+
+.tags div{
+  transition: all .2s ease-in-out;
+  opacity: 0.8
+}
+
+.tags div:hover{
+  opacity: 1;
+  cursor: pointer;
+  height: 7vw;
+  width: 14vw;
+}
+/* tags images*/
+.tagOne{
+  background-image: url('img/tags/tagOne.png');
   background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
   height: 6vw;
 }
 
+.tagTwo{
+  background-image: url('img/tags/tagTwo.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 6vw;
+}
+
+.tagThree{
+  background-image: url('img/tags/tagThree.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 6vw;
+}
+
+.tagFour{
+  background-image: url('img/tags/tagFour.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 6vw;
+}
+
+.tagFive{
+  background-image: url('img/tags/tagFive.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 6vw;
+}
+
+.tagSix{
+  background-image: url('img/tags/tagSix.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 6vw;
+}
+/*tags end*/
 .threeDivPic{
-  background-image: url('img/threeDivPic.png');
+  background-image: url('img/twitterbg.png');
   background-size: 100% 100%;
   height: 29.5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.fa{
+  font-size:36px;
+  color:white;
+  margin-bottom: 2vw;
+}
+
+.fa:hover{
+  cursor: pointer;
+  color:#0f967f;
+}
+
+.scrollDiv{
+  color:white;
+  height: 17.02vw;
+  width: 92.70vw;
+  overflow-y: scroll;
+  font-size:1.4vw;
+  display: flex;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.scrollDiv a{
+  color:#0f967f;
+}
+
+.scrollOne{
+  text-align: center;
+  min-width: 28vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 footer{
@@ -356,11 +460,178 @@ footer{
   position: relative;
   background-color: white;
   color:#0f967f;
-  border-radius: 15px;
+  border-radius: 1vw;
   font-weight: bold;
   font-size: 2vw;
   width: 15.85vw;
   height: 3.92vw;
   margin-left: 50%;
   left:-7.43vw;
+}
+
+
+/*MEDIA FOR PORTRAIT (PHONE)*/
+@media only screen and (orientation: portrait){
+  #navBarDesktop{
+    padding-left: 20.35%;
+    padding-right: 20.35%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+  }
+
+  #navBarDesktop a{
+    color:#0f967f;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 4.8vw;
+    margin-bottom: 2vw;
+  }
+
+  #navBarDesktop a:hover{
+    text-decoration: underline;
+  }
+
+  #navBarMobile{
+    display: block;
+    min-height: 7vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #navBarMobile a{
+    padding-top: 1vw;
+    text-decoration: none;
+    color:#0f967f;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+
+  .search{
+    background-image: url('img/Search.png');
+    background-size: 100% 100%;
+    height: 6vw;
+    width: 8vw;
+    cursor: pointer;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+      width: 10vw;
+      height: 0.7vw;
+      background-color: #0f967f;
+      margin: 1vw 0;
+      transition: 0.4s;
+  }
+  /*logo*/
+  header{
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    min-height: 21.64vw;
+    background-color: #0f967f;
+  }
+
+  header h1{
+    margin: 0;
+    margin-left: 0.71vw;
+    margin-right: 0.5vw;
+    font-size: 4vw;
+    text-align-last: justify;
+  }
+
+  .logo{
+    display: inline-block;
+    position: relative;
+    background-image: url('img/Logo.png');
+    height: 20.07vw;
+    width: 60vw;
+    margin-left: 50vw;
+    left: -30vw;
+    margin-top: 2.5vw;
+    background-size: 100% 100%;
+  }
+
+  .login{
+    height: 5vw;
+    color: white;
+    position: relative;
+    float: none;
+    width: 40vw;
+    display: block;
+    margin-right: auto;
+    margin-left: 50vw;
+    left:-20vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
+  }
+
+  .login button{
+    display: none;
+  }
+  /*logo*/
+  /*grid*/
+  .sectionOne{
+    height: 100vh;
+    display: grid;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+  }
+  .picOne{
+    grid-row:1/2;
+    grid-column: 1/2;
+  }
+
+  .picTwo{
+    grid-row:2/3;
+    grid-column: 1/2;
+  }
+
+  .picThree{
+    grid-row:3/4;
+    grid-column: 1/2;
+  }
+
+  .picFour{
+    grid-row:4/5;
+    grid-column: 1/2;
+  }
+
+  .sectionOne div{
+    font-size: 4vw;
+  }
+  /*grid end*/
+
+  .sectionRisk{
+    font-size: 2.1vw;
+    height: auto;
+  }
+
+  .sectionRisk h1{
+    font-size: 5.5vw;
+  }
+
+  .sectionRisk p{
+    font-size: 2.5vw;
+  }
+
+  .sectionRisk button{
+    font-size: 4vw;
+    padding: 1.5vw;
+    height: auto;
+    width: auto;
+    margin-bottom: 2vw;
+  }
+
+  .scrollDiv{
+    font-size:2vw;
+  }
+
 }
