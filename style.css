@@ -16,6 +16,7 @@ header{
 header h1{
   margin: 0;
   margin-left: 0.71vw;
+  margin-right: 0.5vw;
   font-size: 2vw;
   text-align-last: justify;
 }
@@ -72,7 +73,7 @@ nav{
 nav a{
   color:#0f967f;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 1.8vw;
 }
 
@@ -192,7 +193,7 @@ a:hover{
 
 .claimGame{
   background-image: url('img/ClaimGame.png');
-  height: 43.7vw;
+  height: 43.75vw;
   width: 35vw;
   margin-top: 1px;
   background-size: 100% 100%;
@@ -209,7 +210,7 @@ a:hover{
 
 .inspiredText{
   padding-right: 10vw;
-  margin-bottom:6vw;
+  margin-bottom:3.3vw;
 }
 
 .inspiredText h1{
@@ -232,13 +233,14 @@ a:hover{
 }
 
 .imgTwenty{
-  padding-top: 1.6vw;
+  padding-top: 2.6vw;
   display: flex;
   justify-content: center;
 }
 
 .imgTwenty p{
-  font-size: 0.8vw;
+  font-size: 0.9vw;
+  font-weight: 400;
 }
 
 .buttonsTwenty{
@@ -272,13 +274,13 @@ a:hover{
   border-radius: 15px;
   font-weight: bold;
   font-size: 2vw;
-  margin-bottom: 1.92vw;
   height: 3.85vw;
   width: 20.7vw;
 }
 
 .imgTwenty img{
-  height: 2.35vw;
+  height: 3vw;
+  width: 18vh;
 }
 
 /*inspired pain end*/
